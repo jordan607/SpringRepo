@@ -1,0 +1,11 @@
+package com.nt.service;
+
+public class IntrAmtCalculatorImpl implements IntrAmtCalculator {
+
+	@Override
+	public float calcIntrAmount(float pAmt, float time, float rate) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

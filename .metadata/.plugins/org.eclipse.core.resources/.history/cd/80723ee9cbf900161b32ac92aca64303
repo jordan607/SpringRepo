@@ -1,0 +1,30 @@
+package com.nt.beans;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.core.io.FileSystemResource;
+
+public class Viechle {
+
+	public void soundHorn() {
+		System.out.println("Horn:Sound Horn");
+	}
+
+	public void entertainment() {
+		System.out.println("Entertainment: DVD Player with LED screens");
+	}
+
+	public void move() {
+		BeanFactory factory = null;
+		Engine engg = null;
+		// create IOC container
+		factory = new XmlBeanFactory(new FileSystemResource("src/main/java/com/nt/cfgs/applicationContext.xml"));
+		//get Engine (Dependency lookup)
+		engg = factory.getBean("eng", Engine.class);
+
+		 //use engine
+		engg.start();
+		System.out.println("Viechle moved");
+	} // method
+
+}//class

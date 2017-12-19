@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;persistence-beans.xml&apos; to &apos;TxmgmtProj1-transerMoney-LocalTx-FlatTx-SpringJDBC-DataSourceTxManager/src/main/java/com.nt.cfgs&apos;&#x0D;&#x0A;- Original project: &apos;DAOProj6-JdbcTemplate-BatchProcessing-BPSS&apos;&#x0D;&#x0A;- Destination element: &apos;TxmgmtProj1-transerMoney-LocalTx-FlatTx-SpringJDBC-DataSourceTxManager/src/main/java/com.nt.cfgs&apos;&#x0D;&#x0A;- Original element: &apos;persistence-beans.xml&apos;" description="Copy file" destination="=TxmgmtProj1-transerMoney-LocalTx-FlatTx-SpringJDBC-DataSourceTxManager/src\/main\/java&lt;com.nt.cfgs" element1="src/main/java/com/nt/cfgs/persistence-beans.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1494512114783" units="0" version="1.0"/>
+</session>

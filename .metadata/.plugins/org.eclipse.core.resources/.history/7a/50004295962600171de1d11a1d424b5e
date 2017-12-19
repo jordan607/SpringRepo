@@ -1,0 +1,5 @@
+#Apache DBCP jdbc con pool
+spring.datasource.dbcp2.driver-class-name==oracle.jdbc.driver.OracleDriver
+spring.datasource.dbcp2.url=jdbc:oracle:thin:@localhost:1521:xe
+spring.datasource.dbcp2.username=system
+spring.datasource.dbcp2.password=manager

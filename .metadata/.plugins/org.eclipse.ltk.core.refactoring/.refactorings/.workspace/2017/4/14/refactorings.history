@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DAOProj1&apos; to &apos;DAOProj1-JdbcTemplateWithDirectMethods&apos;" description="Rename resource &apos;DAOProj1&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/DAOProj1" name="DAOProj1-JdbcTemplateWithDirectMethods" stamp="1491226410232" updateReferences="true"/>
+</session>

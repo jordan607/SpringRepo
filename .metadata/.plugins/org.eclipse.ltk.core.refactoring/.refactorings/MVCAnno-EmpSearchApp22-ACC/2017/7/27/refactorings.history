@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;WEB-INF&apos;&#x0D;&#x0A;- Original project: &apos;MVCAnno-EmpSearchApp22-ACC&apos;&#x0D;&#x0A;- Destination element: &apos;WEB-INF&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     dispatcher-servlet.xml&#x0D;&#x0A;     applicationContext.xml&#x0D;&#x0A;     web.xml" description="Copy files" element1="src/main/webapp/WEB-INF/dispatcher-servlet.xml" element2="src/main/webapp/WEB-INF/applicationContext.xml" element3="src/main/webapp/WEB-INF/web.xml" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1499173767299" target="/MVCAnnoFileUploadApp/src/main/webapp/WEB-INF" units="0" version="1.0"/>
+</session>

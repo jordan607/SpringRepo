@@ -1,0 +1,28 @@
+package com.nt.beans;
+
+import java.util.Date;
+
+public class WishMsgGenerator {
+	private Date date;
+
+	 //setter method
+	public void setDate(Date date) {
+		this.date = date;
+	}
+	
+	//B.method
+	public String generateWishMsg(String uname){
+		int hour=0;
+		//get current hour of the day
+		hour=date.getHours();
+		//write b.logic
+		if(hour<=12)
+			return "Good morning"+uname;
+		else if(hour<=16)
+			return "Good Afternoon"+uname;
+		else if(hour<=20)
+			return "Good Evening"+uname;
+		else
+			return "Good Night"+uname;
+	}//method
+}//class

@@ -1,0 +1,13 @@
+package nit.AspectJProj1_AroundAdive_Decl;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}

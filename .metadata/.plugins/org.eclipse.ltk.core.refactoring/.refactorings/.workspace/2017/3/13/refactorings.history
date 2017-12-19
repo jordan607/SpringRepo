@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;IOCProj55-BeanLifecycle-Annotations&apos;" deleteContents="true" description="Delete resource &apos;IOCProj55-BeanLifecycle-Annotations&apos;" element1="/IOCProj55-BeanLifecycle-Annotations" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1490705864129"/>
+</session>

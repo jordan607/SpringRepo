@@ -1,0 +1,21 @@
+package com.nt.config;
+
+import org.springframework.aop.framework.ProxyFactoryBean;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan(basePackages={"com.nt.service,com.nt.aspect"})
+public class AppConfig {
+	
+	@Bean(name="pfb")
+	public ProxyFactoryBean createProxyFactoryBean(){
+		ProxyFactoryBean pfb=null;
+		pfb=new ProxyFactoryBean();
+		pfb.setTarget(target);
+		
+		
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.nt.aspect;
+
+import org.aopalliance.intercept.MethodInterceptor;
+import org.aopalliance.intercept.MethodInvocation;
+
+public class PerformanceMonitoringAroundAdvice implements MethodInterceptor {
+        private long start=0,end=0;
+        
+	public Object invoke(MethodInvocation invocation) throws Throwable {
+		Object retVal=0;
+		System.out.println("PMAroundAdvice:Enterring into target mehtod");
+
+		//get start time
+		 start=System.currentTimeMillis();
+		 
+		 retVal=invocation.proceed(); //invokes target method
+		 
+		 //get end time
+		 System.out.println("PMAroundAdvice:exited from target mehtod");
+		 end=System.currentTimeMillis();
+		
+		 return retVal;
+	}//method
+}//class

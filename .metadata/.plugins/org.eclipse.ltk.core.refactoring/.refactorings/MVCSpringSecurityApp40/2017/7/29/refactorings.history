@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MVCSpringSecurityApp40/src/main/webapp/WEB-INF/applicationContext.xml&apos; to &apos;security-config.xml&apos;" description="Rename resource &apos;applicationContext.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/WEB-INF/applicationContext.xml" name="security-config.xml" stamp="1500382590378" updateReferences="true"/>
+</session>

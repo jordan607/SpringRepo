@@ -1,0 +1,25 @@
+package com.nt.aspect;
+
+import java.io.FileWriter;
+import java.lang.reflect.Method;
+import java.util.Date;
+
+import org.springframework.aop.MethodBeforeAdvice;
+
+public class LoanAuditAdvice implements MethodBeforeAdvice {
+
+ @Override
+ public void before(Method method, Object[] args, Object target) throws Throwable {
+     FileWriter writer=null;
+     
+     //create FileInputStream pointing to AuditLog file
+     writer=new FileWriter("E:/AuditLog.txt",true);
+
+     //write messages to Audit Log file
+     writer.write(args[0]+" has come for"+args[2]+
+    		      " loan approval to the manager-->"+args[1]+"at "+new Date());
+      writer.flush();
+      writer.close();
+ }//method
+ 
+}//class

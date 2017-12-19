@@ -1,0 +1,21 @@
+package com.nt.pointcut;
+
+import java.lang.reflect.Method;
+
+import org.springframework.aop.support.DynamicMethodMatcherPointcut;
+import org.springframework.aop.support.StaticMethodMatcherPointcut;
+
+import com.nt.service.ArithmeticOperations;
+
+public class CommonDyanmicPointcut extends DynamicMethodMatcherPointcut {
+
+	@Override
+	public boolean matches(Method arg0, Class<?> arg1, Object[] arg2) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	
+	
+
+}

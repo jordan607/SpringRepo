@@ -1,0 +1,7 @@
+package com.nt.aspect;
+
+import org.springframework.aop.ThrowsAdvice;
+
+public class CommonExceptionLogger implements ThrowsAdvice {
+
+}

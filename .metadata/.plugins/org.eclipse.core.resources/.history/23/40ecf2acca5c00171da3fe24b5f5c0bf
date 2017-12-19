@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+<c:choose>
+  <c:when test="${!empty empList}">
+    <table>
+       <tr><th>empno</th><th>ename</th><th>job</th><th>salary</th><th>deptno</th><th>mgrno</th></tr>
+       <c:forEach var="dto" items="${empList}">
+         <tr>
+           <td>${dto.empno}</td>
+         </tr>
+       </c:forEach>
+       
+              
+    </table>
+  
+  </c:when>
+
+</c:choose>
+    
+    
+     
+
+    

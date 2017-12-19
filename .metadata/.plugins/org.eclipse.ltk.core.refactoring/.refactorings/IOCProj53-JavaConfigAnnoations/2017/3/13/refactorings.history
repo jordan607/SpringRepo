@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;IOCProj53-JavaConfigAnnoations&apos;&#x0D;&#x0A;- Original project: &apos;IOCProj53-JavaConfigAnnoations&apos;&#x0D;&#x0A;- Original element: &apos;IOCProj53-JavaConfigAnnoations/src/main/java/nit.IOCProj53_JavaConfigAnnoations&apos;" description="Delete element" element1="/src\/main\/java&lt;nit.IOCProj53_JavaConfigAnnoations" element2="/src\/main\/java&lt;nit" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1490619119312" subPackages="false" version="1.0"/>
+</session>

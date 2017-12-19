@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="MVCBootListProfilesApp37-AC"/>
+<aop-project name="MVCBootFirstApp35"/>
+<aop-project name="MVCBootInsertApp38-SFC-ORM"/>
+<aop-project name="BootAopAroundAdvice"/>
+<aop-project name="MVCBOOTSpringSecurityApp44"/>
+<aop-project name="BootORM-CURDOperations"/>
+<aop-project name="BootAOPAspectj24-AroundAdvice">
+<aspect-definition advice-class-name="com.nt.aspect.PerformanceMonitoringAdvice" advice-method-name="monitor(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="13" aspect-name="performanceMonitoringAdvice" aspect-start-line-number="13" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/BootAOPAspectj24-AroundAdvice/src/main/java/com/nt/aspect/PerformanceMonitoringAdvice.java" pointcut-expression="execution(* com.nt.service.IntrAmountCalculator.*(..))" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:BootAOPAspectj24-AroundAdvice|3:java:com.nt.config.BootAopAspectj24AroundAdviceApplication|8:iac:6" bean-file="/BootAOPAspectj24-AroundAdvice/src/main/java/com/nt/service/IntrAmountCalculator.java" bean-start-line="6" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/BootAOPAspectj24-AroundAdvice/src/main/java/com/nt/config/BootAopAspectj24AroundAdviceApplication.java" source="=BootAOPAspectj24-AroundAdvice/src\/main\/java&lt;com.nt.aspect{PerformanceMonitoringAdvice.java[PerformanceMonitoringAdvice~monitor~QProceedingJoinPoint;" source-start-line="17" target="=BootAOPAspectj24-AroundAdvice/src\/main\/java&lt;com.nt.service{IntrAmountCalculator.java[IntrAmountCalculator~calcSimpleIntrAmount~F~F~F" target-start-line="8"/>
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:BootAOPAspectj24-AroundAdvice|3:java:com.nt.config.BootAopAspectj24AroundAdviceApplication|8:iac:6" bean-file="/BootAOPAspectj24-AroundAdvice/src/main/java/com/nt/service/IntrAmountCalculator.java" bean-start-line="6" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/BootAOPAspectj24-AroundAdvice/src/main/java/com/nt/config/BootAopAspectj24AroundAdviceApplication.java" source="=BootAOPAspectj24-AroundAdvice/src\/main\/java&lt;com.nt.aspect{PerformanceMonitoringAdvice.java[PerformanceMonitoringAdvice~monitor~QProceedingJoinPoint;" source-start-line="17" target="=BootAOPAspectj24-AroundAdvice/src\/main\/java&lt;com.nt.service{IntrAmountCalculator.java[IntrAmountCalculator~calcCompoundIntrAmount~F~F~F" target-start-line="13"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="MVCBootLanguageApp36"/>
+<aop-project name="BootDAOApp2-SimpleJdbcInsert1"/>
+<aop-project name="BootDAOApp2-SimpleJdbcInsert"/>
+<aop-project name="BootTxMgmt8-DistributedTxMgmt"/>
+<aop-project name="BootTxMgmtProj5Aspectj"/>
+</aop-reference-model>

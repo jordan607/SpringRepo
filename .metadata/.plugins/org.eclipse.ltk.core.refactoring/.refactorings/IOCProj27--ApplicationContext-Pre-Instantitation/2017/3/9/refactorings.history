@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.nt.test.LooseCouplingTest&apos; to &apos;PreInstantiationTest&apos;&#x0D;&#x0A;- Original project: &apos;IOCProj27--ApplicationContext-Pre-Instantitation&apos;&#x0D;&#x0A;- Original element: &apos;com.nt.test.LooseCouplingTest&apos;&#x0D;&#x0A;- Renamed element: &apos;com.nt.test.PreInstantiationTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LooseCouplingTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.nt.test{LooseCouplingTest.java[LooseCouplingTest" matchStrategy="1" name="PreInstantiationTest" qualified="false" references="true" similarDeclarations="false" stamp="1488546235540" textual="false" version="1.0"/>
+</session>

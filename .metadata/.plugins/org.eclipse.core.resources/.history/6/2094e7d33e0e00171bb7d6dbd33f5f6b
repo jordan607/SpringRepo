@@ -1,0 +1,12 @@
+package com.nt.pe;
+
+import java.beans.PropertyEditorSupport;
+
+public class AmtDetailsPropertyEditor extends PropertyEditorSupport {
+
+	@Override
+	public void setAsText(String text) throws IllegalArgumentException {
+		float pAmt=0.0f,rate=0.0f,time=0.0f;
+		//read property values
+		pAmt=Float.parseFloat(text.substring(0,text.indexOf(',')));
+		time=Float.parseFloat(text.substring((text.indexOf(',')+1),text.lastIndexOf(',')));

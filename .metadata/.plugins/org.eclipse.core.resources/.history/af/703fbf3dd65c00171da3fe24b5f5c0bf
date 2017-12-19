@@ -1,0 +1,23 @@
+package com.nt.dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import com.nt.bo.UserBO;
+
+public class LoginDAOImpl implements LoginDAO {
+  private static final String AUTH_QUERY="SELECT COUNT(*) FROM USERLIST WHERE UNAME=?,PWD=?";
+	@Autowired
+	private JdbcTemplate jt;
+	
+	
+	@Override
+	public int validate(UserBO bo) {
+		int count=0;
+		//execute queru
+		count=jt.queryForObject(AUTH_QUERY,Integer.class,bo.getUser(),bo.getPwd());
+		return count;
+	}
+	
+
+}

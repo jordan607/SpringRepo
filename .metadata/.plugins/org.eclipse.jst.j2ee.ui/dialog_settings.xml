@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="true" key="J2EE_EXPORT_OVERWRITE"/>
+	<item value="true" key="J2EE_EXPORT_SOURCE"/>
+	<list key="MRU_RUNTIME_STORE">
+		<item value="Apache Tomcat v9.0"/>
+	</list>
+	<list key="J2EE_EXPORT_JST_WEB">
+		<item value="D:\Tomcat 9.x\webapps\DAOEmpSearchApp2-MVC-DAO.war"/>
+		<item value="D:\GlassFish4.0Soft\glassfish4\glassfish\domains\GFNtSp86Domain\autodeploy\DAOEmpSearchApp2-MVC-DAO.war"/>
+		<item value="D:\Oracle\Middleware\Oracle_Home\user_projects\domains\NTSp86Domain\autodeploy\DAOEmpSearchApp2-MVC-DAO.war"/>
+	</list>
+</section>

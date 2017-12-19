@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;validator.properties&apos; to &apos;commons&apos;" description="Move &apos;validator.properties&apos; to &apos;commons&apos;" destination="src/main/resources/com/nt/commons" element1="src/main/resources/validator.properties" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1498962260394" updateReferences="true"/>
+</session>

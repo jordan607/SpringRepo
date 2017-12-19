@@ -1,0 +1,7 @@
+#View Resolver Configuration
+spring.mvc.view.prefix=/WEB-INF/pages/
+spring.mvc.view.suffix=.jsp
+
+# Cfg Server Managed Jdbc con pool
+spring.datasource.jndi-name=java:/comp/env/DsJndi
+

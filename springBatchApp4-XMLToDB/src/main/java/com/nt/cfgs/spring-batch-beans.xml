@@ -1,0 +1,69 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:batch="http://www.springframework.org/schema/batch" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/batch
+		http://www.springframework.org/schema/batch/spring-batch-3.0.xsd
+		http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+	<import resource="persistence-beans.xml"/>
+
+	<!-- JobRepository and JobLauncher are configuration/setup classes -->
+	<bean id="jobRepository" class="org.springframework.batch.core.repository.support.MapJobRepositoryFactoryBean" />
+
+	<bean id="jobLauncher" 	class="org.springframework.batch.core.launch.support.SimpleJobLauncher">
+		<property name="jobRepository" ref="jobRepository" />
+	</bean>
+
+
+	<!-- ItemReader which reads data from XML file -->
+	<bean id="xmlItemReader" class="org.springframework.batch.item.xml.StaxEventItemReader">
+		<property name="resource" value="classpath:com/nt/xml/MugUpMasters.xml" />
+		<property name="fragmentRootElementName" value="ExamResult" />
+		<property name="unmarshaller">
+			<bean class="org.springframework.oxm.jaxb.Jaxb2Marshaller">
+				<property name="classesToBeBound">
+					<list>
+						<value>com.nt.model.ExamResult</value>
+					</list>
+				</property>
+			</bean>
+		</property>
+	</bean>
+
+	<!-- ItemWriter which writes data to database -->
+  	<bean id="databaseItemWriter" class="org.springframework.batch.item.database.JdbcBatchItemWriter">
+		<property name="dataSource" ref="dbcpDs" />
+		<property name="sql">
+		  	<value>
+	            <![CDATA[        
+	            	insert into EXAM_RESULT values (?,?,?,?)
+	            ]]>
+		  	</value>
+		</property>
+
+		<!-- We need a custom setter to set values to Query param by getting values ExamResult object  -->
+		<property name="ItemPreparedStatementSetter">
+			<bean class="com.nt.batchSetter.ExamResultItemPreparedStatementSetter"/>
+		</property>
+  </bean>
+  
+  
+
+	<!-- Optional ItemProcessor to perform business logic/filtering on the input records -->
+	<bean id="itemProcessor" class="com.nt.batch.ExamResultItemProcessor" />
+
+
+	<!-- Step will need a transaction manager -->
+	<bean id="transactionManager" class="org.springframework.batch.support.transaction.ResourcelessTransactionManager" />
+
+	<!-- Actual Job -->
+	<batch:job id="examResultJob">
+		<batch:step id="step1">
+			<batch:tasklet transaction-manager="transactionManager">
+				<batch:chunk reader="xmlItemReader" writer="databaseItemWriter"
+					processor="itemProcessor" commit-interval="10" />
+			</batch:tasklet>
+		</batch:step>
+	</batch:job>
+
+</beans>			

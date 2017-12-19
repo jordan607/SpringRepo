@@ -1,0 +1,13 @@
+package com.nt.dao;
+
+import com.nt.bo.UserDetailsBO;
+
+public class AuthenticateDAOImpl implements AuthenticateDAO {
+
+	@Override
+	public boolean authenticate(UserDetailsBO detailsBO) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

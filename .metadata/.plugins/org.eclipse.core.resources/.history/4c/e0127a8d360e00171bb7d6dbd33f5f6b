@@ -1,0 +1,13 @@
+package nit.IOCProj48_Built_inPropertyEditor;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}

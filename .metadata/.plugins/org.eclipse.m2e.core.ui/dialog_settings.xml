@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="internal" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\spring\NtSp86\SpringBatchApp2-DBToCsv\src\main\java\com\nt\cfgs\persistence-beans.xml"/>
+			<item value="D:\spring\NtSp86\MVCBOOTSpringSecurityApp44\src\main\resources\application.properties"/>
+			<item value="D:\spring\NtSp86\MVC100PTestAppWithDynaRegistration1"/>
+			<item value="D:\spring\NtSp86\MVCAnnoWisApp21-AC\src\main\java\com\nt\controller\WishController.java"/>
+			<item value="D:\spring\NtSp86\MVCFirstApp18-ViewResolvers\src\com\nt\commons\views.properties"/>
+			<item value="D:\NtSp86\TxMgmtProj6-AspectjAnno-DistributedTxMgmt"/>
+			<item value="D:\NtSp86\AOPAspectjProj22-Anno-Pointcut\src\main\java\com\nt\service\ArithmeticOperations.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="nit.SpringBatchApp2_DBToCsvMysql"/>
+			<item value="nit.SpringBatchApp2_DBToCsv"/>
+			<item value="nit.SpringBatchApp1_POC"/>
+		</list>
+		<list key="groupId">
+			<item value="nit"/>
+		</list>
+		<list key="artifactId">
+			<item value="SpringBatchApp2-DBToCsvMysql"/>
+			<item value="SpringBatchApp2-DBToCsv"/>
+			<item value="SpringBatchApp1-POC"/>
+			<item value="MVCSpringSecurityApp39"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

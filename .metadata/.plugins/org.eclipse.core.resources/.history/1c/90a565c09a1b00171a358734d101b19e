@@ -1,0 +1,7 @@
+package com.nt.controller;
+
+import javax.servlet.http.HttpServlet;
+
+public class EmployeeSearchControllerServlet extends HttpServlet {
+
+}

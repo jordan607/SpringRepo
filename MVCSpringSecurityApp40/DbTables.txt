@@ -1,0 +1,22 @@
+<!-- 
+db tables
+SQL> select * from users;
+
+UNAME(PK)             PWD                      STATUS
+-------------------- -------------------- ----------
+ramesh               chari                         1
+raja                 rani                          1
+ravi                 hyd                           1
+jani                 jani                          1
+
+SQL> select * from users_roles;
+
+   ROLE_ID UNAME(FK)              ROLE
+---------- -------------------- --------------------
+         5 ramesh               ROLE_FAMILY_MEMBER
+         1 raja                 ROLE_OWNER
+         2 ravi                 ROLE_ADMIN
+         3 jani                 ROLE_ADMIN
+         4 jani                 ROLE_OWNER
+
+ -->

@@ -1,0 +1,37 @@
+package com.nt.beans;
+
+import java.util.Date;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class WishMsgGenerator {
+	//@Autowired
+	private Date date;
+	
+	
+	@Autowired
+	public WishMsgGenerator() {
+	
+	}
+	
+	/*@Autowired
+	public WishMsgGenerator(Date date){
+		this.date=date;
+	}*/
+	
+	//@Autowired
+	public void setDate(Date date){
+		this.date=date;
+	}
+	
+	//@Autowired
+	public void assignDate(Date date){
+		this.date=date;
+	}
+	
+	
+	
+	public String sayHello(String uname){
+		return "Good Morning:::"+uname+" date=="+date;
+	}
+}

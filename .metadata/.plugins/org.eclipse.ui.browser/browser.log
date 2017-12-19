@@ -1,0 +1,390 @@
+
+Jun 23, 2017 19:49:00.85 NEW SESSION
+Jun 23, 2017 19:49:00.85 
+Jun 23, 2017 19:49:00.85 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Jun 23, 2017 19:49:00.86 
+Jun 23, 2017 19:49:00.86 
+Jun 23, 2017 19:49:00.87 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Jun 23, 2017 19:49:00.87 
+Jun 23, 2017 19:49:00.87 
+Jun 23, 2017 19:49:00.92 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Jun 23, 2017 19:49:00.93 
+Jun 23, 2017 19:49:00.94 
+Jun 23, 2017 19:49:00.94 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Jun 23, 2017 19:49:01.01 
+Jun 23, 2017 19:49:01.02 
+Jun 23, 2017 19:49:01.03 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400A8,name=PContent::Msg_ConsoleMessage) Channel closing: too late to send/recv, messages will be lost
+Jun 23, 2017 19:49:01.04 
+Jun 23, 2017 19:49:01.04 [Child 3408] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jun 23, 2017 19:49:01.05 
+Jun 23, 2017 19:49:01.05 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jun 23, 2017 19:49:01.06 
+Jun 23, 2017 19:49:01.07 
+Jun 23, 2017 19:49:01.11 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jun 23, 2017 19:49:01.12 
+Jun 23, 2017 19:49:01.12 
+Jun 23, 2017 19:49:01.13 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jun 23, 2017 19:49:01.14 
+Jun 23, 2017 19:49:01.14 [Child 3408] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jun 23, 2017 19:49:01.15 
+Jun 23, 2017 19:49:01.27 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jun 23, 2017 19:49:01.27 
+Jun 23, 2017 19:49:01.28 
+Jun 23, 2017 19:49:01.28 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jun 23, 2017 19:49:01.29 
+Jun 23, 2017 19:49:01.30 
+Jun 23, 2017 19:49:01.30 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jun 23, 2017 19:49:01.31 
+Jun 23, 2017 19:49:01.31 
+Jun 23, 2017 19:49:01.32 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jun 23, 2017 19:49:01.32 
+Jun 23, 2017 19:49:01.33 
+Jun 23, 2017 19:49:01.34 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jun 23, 2017 19:49:01.35 
+Jun 23, 2017 19:49:01.35 
+Jun 23, 2017 19:49:01.38 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jun 23, 2017 19:49:01.40 
+Jun 23, 2017 19:49:01.41 
+Jun 23, 2017 19:49:01.41 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400B8,name=PContent::Msg_PrivateDocShellsExist) Closed channel: cannot send/recv
+Jun 23, 2017 19:49:01.42 
+
+Jun 29, 2017 19:05:58.95 NEW SESSION
+Jun 29, 2017 19:05:58.95 [Child 5776] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jun 29, 2017 20:01:51.11 
+Jun 29, 2017 20:01:51.12 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Jun 29, 2017 20:01:51.13 
+Jun 29, 2017 20:01:51.14 
+Jun 29, 2017 20:01:51.16 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Jun 29, 2017 20:01:51.17 
+Jun 29, 2017 20:01:51.19 
+Jun 29, 2017 20:01:51.19 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Jun 29, 2017 20:01:51.22 
+Jun 29, 2017 20:01:51.27 
+Jun 29, 2017 20:01:51.29 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Jun 29, 2017 20:01:51.30 
+Jun 29, 2017 20:01:51.31 
+Jun 29, 2017 20:01:51.32 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400AB,name=PContent::Msg_ConsoleMessage) Channel closing: too late to send/recv, messages will be lost
+Jun 29, 2017 20:01:51.33 
+Jun 29, 2017 20:01:51.35 
+Jun 29, 2017 20:01:51.36 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jun 29, 2017 20:01:51.36 
+Jun 29, 2017 20:01:51.37 
+Jun 29, 2017 20:01:51.37 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jun 29, 2017 20:01:51.38 
+Jun 29, 2017 20:01:51.38 
+Jun 29, 2017 20:01:51.39 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jun 29, 2017 20:01:51.39 
+Jun 29, 2017 20:01:51.40 
+Jun 29, 2017 20:01:51.40 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C002B,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+Jun 29, 2017 20:01:51.41 
+Jun 29, 2017 20:01:51.41 
+Jun 29, 2017 20:01:51.41 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jun 29, 2017 20:01:51.42 
+Jun 29, 2017 20:01:51.42 
+Jun 29, 2017 20:01:51.43 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jun 29, 2017 20:01:51.43 
+Jun 29, 2017 20:01:51.44 
+Jun 29, 2017 20:01:51.44 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jun 29, 2017 20:01:51.45 
+Jun 29, 2017 20:01:51.45 
+Jun 29, 2017 20:01:51.46 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400BB,name=PContent::Msg_PrivateDocShellsExist) Closed channel: cannot send/recv
+Jun 29, 2017 20:01:51.46 
+
+Jul 07, 2017 19:54:22.05 NEW SESSION
+Jul 07, 2017 19:54:22.05 
+Jul 07, 2017 19:54:22.17 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.18 
+Jul 07, 2017 19:54:22.18 
+Jul 07, 2017 19:54:22.19 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.19 
+Jul 07, 2017 19:54:22.20 
+Jul 07, 2017 19:54:22.21 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.21 
+Jul 07, 2017 19:54:22.22 
+Jul 07, 2017 19:54:22.22 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.23 
+Jul 07, 2017 19:54:22.23 
+Jul 07, 2017 19:54:22.25 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.25 
+Jul 07, 2017 19:54:22.26 
+Jul 07, 2017 19:54:22.26 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.27 
+Jul 07, 2017 19:54:22.27 
+Jul 07, 2017 19:54:22.27 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.28 
+Jul 07, 2017 19:54:22.29 
+Jul 07, 2017 19:54:22.29 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.30 
+Jul 07, 2017 19:54:22.30 
+Jul 07, 2017 19:54:22.31 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.31 
+Jul 07, 2017 19:54:22.32 
+Jul 07, 2017 19:54:22.33 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.34 
+Jul 07, 2017 19:54:22.35 
+Jul 07, 2017 19:54:22.35 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.36 
+Jul 07, 2017 19:54:22.36 
+Jul 07, 2017 19:54:22.37 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.37 
+Jul 07, 2017 19:54:22.38 
+Jul 07, 2017 19:54:22.38 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.39 
+Jul 07, 2017 19:54:22.39 
+Jul 07, 2017 19:54:22.40 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.40 
+Jul 07, 2017 19:54:22.41 
+Jul 07, 2017 19:54:22.41 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.42 
+Jul 07, 2017 19:54:22.42 
+Jul 07, 2017 19:54:22.42 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.43 
+Jul 07, 2017 19:54:22.44 
+Jul 07, 2017 19:54:22.45 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.45 
+Jul 07, 2017 19:54:22.46 
+Jul 07, 2017 19:54:22.46 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.47 
+Jul 07, 2017 19:54:22.47 
+Jul 07, 2017 19:54:22.48 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.48 
+Jul 07, 2017 19:54:22.49 
+Jul 07, 2017 19:54:22.50 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.50 
+Jul 07, 2017 19:54:22.51 
+Jul 07, 2017 19:54:22.51 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.52 
+Jul 07, 2017 19:54:22.52 
+Jul 07, 2017 19:54:22.53 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.53 
+Jul 07, 2017 19:54:22.54 
+Jul 07, 2017 19:54:22.54 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C002B,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.55 
+Jul 07, 2017 19:54:22.55 
+Jul 07, 2017 19:54:22.56 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.56 
+Jul 07, 2017 19:54:22.57 
+Jul 07, 2017 19:54:22.57 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.59 
+Jul 07, 2017 19:54:22.59 
+Jul 07, 2017 19:54:22.60 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.61 
+Jul 07, 2017 19:54:22.62 
+Jul 07, 2017 19:54:22.63 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.63 
+Jul 07, 2017 19:54:22.64 
+Jul 07, 2017 19:54:22.65 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.65 
+Jul 07, 2017 19:54:22.66 
+Jul 07, 2017 19:54:22.67 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.67 
+Jul 07, 2017 19:54:22.68 
+Jul 07, 2017 19:54:22.68 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.69 
+Jul 07, 2017 19:54:22.69 
+Jul 07, 2017 19:54:22.70 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.70 
+Jul 07, 2017 19:54:22.71 
+Jul 07, 2017 19:54:22.71 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.72 
+Jul 07, 2017 19:54:22.72 
+Jul 07, 2017 19:54:22.73 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400BB,name=PContent::Msg_PrivateDocShellsExist) Closed channel: cannot send/recv
+Jul 07, 2017 19:54:22.74 
+
+Jul 19, 2017 19:52:43.99 NEW SESSION
+Jul 19, 2017 19:52:43.99 [Child 4680] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 19, 2017 19:52:44.04 
+Jul 19, 2017 19:52:44.06 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.08 
+Jul 19, 2017 19:52:44.08 
+Jul 19, 2017 19:52:44.09 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.10 
+Jul 19, 2017 19:52:44.10 
+Jul 19, 2017 19:52:44.11 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.12 
+Jul 19, 2017 19:52:44.12 
+Jul 19, 2017 19:52:44.13 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.14 
+Jul 19, 2017 19:52:44.14 
+Jul 19, 2017 19:52:44.15 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.15 
+Jul 19, 2017 19:52:44.16 
+Jul 19, 2017 19:52:44.16 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.17 
+Jul 19, 2017 19:52:44.18 
+Jul 19, 2017 19:52:44.18 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.19 
+Jul 19, 2017 19:52:44.19 
+Jul 19, 2017 19:52:44.20 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.20 
+Jul 19, 2017 19:52:44.21 
+Jul 19, 2017 19:52:44.21 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.22 
+Jul 19, 2017 19:52:44.22 
+Jul 19, 2017 19:52:44.23 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.23 
+Jul 19, 2017 19:52:44.24 
+Jul 19, 2017 19:52:44.24 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.25 
+Jul 19, 2017 19:52:44.25 
+Jul 19, 2017 19:52:44.26 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.26 
+Jul 19, 2017 19:52:44.27 
+Jul 19, 2017 19:52:44.27 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.28 
+Jul 19, 2017 19:52:44.28 
+Jul 19, 2017 19:52:44.29 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.29 
+Jul 19, 2017 19:52:44.29 
+Jul 19, 2017 19:52:44.30 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.30 
+Jul 19, 2017 19:52:44.31 
+Jul 19, 2017 19:52:44.31 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.32 
+Jul 19, 2017 19:52:44.33 
+Jul 19, 2017 19:52:44.33 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.34 
+Jul 19, 2017 19:52:44.35 
+Jul 19, 2017 19:52:44.35 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.36 
+Jul 19, 2017 19:52:44.36 
+Jul 19, 2017 19:52:44.37 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.38 
+Jul 19, 2017 19:52:44.38 
+Jul 19, 2017 19:52:44.39 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.39 
+Jul 19, 2017 19:52:44.40 
+Jul 19, 2017 19:52:44.40 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.41 
+Jul 19, 2017 19:52:44.41 
+Jul 19, 2017 19:52:44.41 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.42 
+Jul 19, 2017 19:52:44.42 
+Jul 19, 2017 19:52:44.43 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.43 
+Jul 19, 2017 19:52:44.44 
+Jul 19, 2017 19:52:44.44 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.45 
+Jul 19, 2017 19:52:44.45 
+Jul 19, 2017 19:52:44.46 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.46 
+Jul 19, 2017 19:52:44.46 
+Jul 19, 2017 19:52:44.47 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.47 
+Jul 19, 2017 19:52:44.48 
+Jul 19, 2017 19:52:44.48 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.48 
+Jul 19, 2017 19:52:44.49 
+Jul 19, 2017 19:52:44.49 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.50 
+Jul 19, 2017 19:52:44.50 
+Jul 19, 2017 19:52:44.51 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.51 
+Jul 19, 2017 19:52:44.51 
+Jul 19, 2017 19:52:44.52 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.52 
+Jul 19, 2017 19:52:44.53 
+Jul 19, 2017 19:52:44.53 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.53 
+Jul 19, 2017 19:52:44.54 
+Jul 19, 2017 19:52:44.54 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C002B,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.55 
+Jul 19, 2017 19:52:44.56 
+Jul 19, 2017 19:52:44.56 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.57 
+Jul 19, 2017 19:52:44.57 
+Jul 19, 2017 19:52:44.58 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.58 
+Jul 19, 2017 19:52:44.59 
+Jul 19, 2017 19:52:44.59 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.60 
+Jul 19, 2017 19:52:44.61 
+Jul 19, 2017 19:52:44.62 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.62 
+Jul 19, 2017 19:52:44.63 
+Jul 19, 2017 19:52:44.63 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.64 
+Jul 19, 2017 19:52:44.64 
+Jul 19, 2017 19:52:44.65 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.66 
+Jul 19, 2017 19:52:44.66 
+Jul 19, 2017 19:52:44.66 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.68 
+Jul 19, 2017 19:52:44.69 
+Jul 19, 2017 19:52:44.69 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.70 
+Jul 19, 2017 19:52:44.70 
+Jul 19, 2017 19:52:44.71 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.72 
+Jul 19, 2017 19:52:44.72 
+Jul 19, 2017 19:52:44.72 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.73 
+Jul 19, 2017 19:52:44.74 
+Jul 19, 2017 19:52:44.74 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.75 
+Jul 19, 2017 19:52:44.76 
+Jul 19, 2017 19:52:44.76 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.77 
+Jul 19, 2017 19:52:44.77 
+Jul 19, 2017 19:52:44.78 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.78 
+Jul 19, 2017 19:52:44.78 
+Jul 19, 2017 19:52:44.79 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.79 
+Jul 19, 2017 19:52:44.80 
+Jul 19, 2017 19:52:44.80 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.81 
+Jul 19, 2017 19:52:44.81 
+Jul 19, 2017 19:52:44.82 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.82 
+Jul 19, 2017 19:52:44.83 
+Jul 19, 2017 19:52:44.83 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.84 
+Jul 19, 2017 19:52:44.84 
+Jul 19, 2017 19:52:44.85 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.86 
+Jul 19, 2017 19:52:44.87 
+Jul 19, 2017 19:52:44.88 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.88 
+Jul 19, 2017 19:52:44.89 
+Jul 19, 2017 19:52:44.90 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.90 
+Jul 19, 2017 19:52:44.91 
+Jul 19, 2017 19:52:44.91 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.92 
+Jul 19, 2017 19:52:44.92 
+Jul 19, 2017 19:52:44.92 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.93 
+Jul 19, 2017 19:52:44.93 
+Jul 19, 2017 19:52:44.94 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.94 
+Jul 19, 2017 19:52:44.95 
+Jul 19, 2017 19:52:44.96 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.96 
+Jul 19, 2017 19:52:44.97 
+Jul 19, 2017 19:52:44.97 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.98 
+Jul 19, 2017 19:52:44.98 
+Jul 19, 2017 19:52:44.99 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:44.99 
+Jul 19, 2017 19:52:45.00 
+Jul 19, 2017 19:52:45.00 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:45.01 
+Jul 19, 2017 19:52:45.01 
+Jul 19, 2017 19:52:45.02 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:45.02 
+Jul 19, 2017 19:52:45.02 
+Jul 19, 2017 19:52:45.03 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:45.03 
+Jul 19, 2017 19:52:45.04 
+Jul 19, 2017 19:52:45.04 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:45.05 
+Jul 19, 2017 19:52:45.05 
+Jul 19, 2017 19:52:45.05 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400BB,name=PContent::Msg_PrivateDocShellsExist) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:45.06 
+Jul 19, 2017 19:52:45.06 
+Jul 19, 2017 19:52:45.07 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:45.07 
+Jul 19, 2017 19:52:45.08 
+Jul 19, 2017 19:52:45.08 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Jul 19, 2017 19:52:45.09 

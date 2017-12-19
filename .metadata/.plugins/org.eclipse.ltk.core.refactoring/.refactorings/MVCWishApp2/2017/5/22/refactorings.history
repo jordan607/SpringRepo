@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MVCWishApp2/src/main/webapp/WEB-INF/myconfig.xml&apos; to &apos;dispatcher-servlet.xml&apos;" description="Rename resource &apos;myconfig.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/WEB-INF/myconfig.xml" name="dispatcher-servlet.xml" stamp="1496239000895" updateReferences="true"/>
+</session>

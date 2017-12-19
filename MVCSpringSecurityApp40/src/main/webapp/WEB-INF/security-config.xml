@@ -1,0 +1,45 @@
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:security="http://www.springframework.org/schema/security"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                    http://www.springframework.org/schema/beans/spring-beans.xsd
+                    http://www.springframework.org/schema/security 
+                    http://www.springframework.org/schema/security/spring-security-3.2.xsd">
+
+ <security:http use-expressions="true">
+		<security:intercept-url pattern="/home.htm"
+			access="permitAll" />
+		<security:intercept-url pattern="/inbox.htm"
+			access="hasRole('ROLE_OWNER')" />
+		<security:form-login />
+		<security:access-denied-handler
+			error-page="/error.jsp" />
+		<security:logout logout-success-url="/home.htm" />
+	</security:http>
+
+
+	<security:authentication-manager>
+		<security:authentication-provider>
+
+<!--    <security:user-service>
+		  <security:user	name="raja" password="rani" authorities="ROLE_OWNER"  /> 
+		  <security:user name="kiran"	password="kiran" authorities="ROLE_ADMIN" />
+		   <security:user name="ravi" password="ravi"	authorities="ROLE_OWNER,ROLE_ADMIN"/>
+          <security:user name="ramesh" password="chari"	authorities="ROLE_OWNER" disabled="true"/>
+          <security:user name="nana" password="milatary" authorities="ROLE_OWNER" locked="true"/>
+		   		   
+   </security:user-service> 
+ -->
+	<!-- For Properties file Auth Provider -->
+<!-- 			<security:user-service properties="classpath:com/nt/commons/security.properties"/>
+ -->
+ 
+    	<jdbc-user-service
+		   data-source-ref="jofb"
+		  users-by-username-query="select uname,pwd,status from users where uname=?"
+		  authorities-by-username-query="select uname,role from users_roles where uname=?" />
+		</security:authentication-provider>
+	</security:authentication-manager>
+</beans:beans>   
+

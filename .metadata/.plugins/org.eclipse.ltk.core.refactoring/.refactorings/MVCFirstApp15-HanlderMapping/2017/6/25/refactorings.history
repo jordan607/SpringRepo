@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MVCFirstApp15-HanlderMapping/WebContent/WEB-INF/myconfig.xml&apos; to &apos;dispatcher-servlet.xml&apos;" description="Rename resource &apos;myconfig.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/WEB-INF/myconfig.xml" name="dispatcher-servlet.xml" stamp="1498050249340" updateReferences="true"/>
+</session>

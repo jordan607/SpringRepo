@@ -1,0 +1,8 @@
+package com.nt.controller;
+
+import org.springframework.web.servlet.mvc.AbstractCommandController;
+
+public class EmployeeSearchController extends AbstractCommandController {
+
+	
+}

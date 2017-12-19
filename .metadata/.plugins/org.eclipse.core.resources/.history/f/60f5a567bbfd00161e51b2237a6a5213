@@ -1,0 +1,16 @@
+package com.nt.service;
+
+import java.util.Arrays;
+
+public class TravelAgent {
+	private TourPlan tp;
+
+	public void setTp(TourPlan tp) {
+		this.tp = tp;
+	}
+	
+	public void planTour(){
+		System.out.println(Arrays.toString(tp.getPlaces())+"will be visited");
+	}
+
+}//class

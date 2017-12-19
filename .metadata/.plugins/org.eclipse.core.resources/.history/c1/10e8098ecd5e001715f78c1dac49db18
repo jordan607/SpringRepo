@@ -1,0 +1,3 @@
+login.user=Username is required
+login.pwd=password is required
+login.pwd.size=password must have min 4 chars 

@@ -1,0 +1,6 @@
+package com.nt.dao;
+
+public interface AuthenticateDAO {
+	public boolean authenticate(UserDetailsBO detailsBO);
+
+}

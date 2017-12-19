@@ -1,0 +1,23 @@
+package com.anurag.springbatch;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.joda.time.LocalDate;
+import org.springframework.jdbc.core.RowMapper;
+
+import com.anurag.springbatch.model.ExamResult;
+
+public class ExamResultRowMapper implements RowMapper<ExamResult>{
+
+	public ExamResult mapRow(ResultSet rs, int rowNum) throws SQLException {
+
+		ExamResult result = new ExamResult();
+		result.setId(rs.getInt("id"));
+		result.setSem(rs.getInt("Semester"));
+		result.setDob(new LocalDate(rs.getDate("dob")));
+		result.setPercentage(rs.getDouble("percentage"));	
+		return result;
+	} 
+
+}

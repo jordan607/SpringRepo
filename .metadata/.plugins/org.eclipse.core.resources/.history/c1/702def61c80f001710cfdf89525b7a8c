@@ -1,0 +1,22 @@
+package com.nt.beans;
+
+private int id;
+private String name;
+private String type;
+private Date dom;
+
+@Required
+public void setId(int id){
+ this.id=id;
+ }
+@Required
+public  void setName(String name){
+ this.name=name;
+}
+public void setType(String type){
+ this.type=type;
+}
+@Required
+public void setDom(Date date){
+   this.date=date;
+  }

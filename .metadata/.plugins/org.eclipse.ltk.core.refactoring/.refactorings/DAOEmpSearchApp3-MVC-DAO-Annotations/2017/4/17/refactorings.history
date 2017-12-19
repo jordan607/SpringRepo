@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;applicationContext.xml&apos; to &apos;AOPProj1-AroundAdvice-PMAdvice-SpringAOPDecl/src/main/java/com.nt.cfgs&apos;&#x0D;&#x0A;- Original project: &apos;DAOEmpSearchApp3-MVC-DAO-Annotations&apos;&#x0D;&#x0A;- Destination element: &apos;AOPProj1-AroundAdvice-PMAdvice-SpringAOPDecl/src/main/java/com.nt.cfgs&apos;&#x0D;&#x0A;- Original element: &apos;applicationContext.xml&apos;" description="Copy file" destination="=AOPProj1-AroundAdvice-PMAdvice-SpringAOPDecl/src\/main\/java&lt;com.nt.cfgs" element1="src/main/java/com/nt/cfgs/applicationContext.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1493042168836" units="0" version="1.0"/>
+</session>

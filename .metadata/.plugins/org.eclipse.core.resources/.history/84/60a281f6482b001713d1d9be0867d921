@@ -1,0 +1,13 @@
+package com.nt.aspect;
+
+import org.springframework.aop.BeforeAdvice;
+
+public class LoanAuditAdvice implements BeforeAdvice {
+	
+	
+	
+	
+	
+	
+
+}

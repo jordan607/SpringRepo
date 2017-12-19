@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;pom.xml&apos; to &apos;TxmgmtProj1-transerMoney-LocalTx-FlatTx-SpringJDBC-DataSourceTxManager&apos;&#x0D;&#x0A;- Original project: &apos;IOCProj57-WishApp-100PCode&apos;&#x0D;&#x0A;- Destination element: &apos;TxmgmtProj1-transerMoney-LocalTx-FlatTx-SpringJDBC-DataSourceTxManager&apos;&#x0D;&#x0A;- Original element: &apos;pom.xml&apos;" description="Copy file" element1="pom.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1494511060764" target="/TxmgmtProj1-transerMoney-LocalTx-FlatTx-SpringJDBC-DataSourceTxManager" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,21 @@
+package com.nt.beans;
+
+import javax.inject.Named;
+
+import org.springframework.beans.factory.annotation.Value;
+
+@Named("voter")
+public class Voter {
+	@Value("raja")
+	private String name;
+	@Value("10")
+	private int age;
+	
+	public String checkVotingEligibility(){
+		if(age<18)
+			return "Mr/Miss/Mrs."+name+" u r not elgible to vote";
+		else
+			return "Mr/Miss/Mrs."+name+" u r  elgible to vote";	
+	}
+
+}

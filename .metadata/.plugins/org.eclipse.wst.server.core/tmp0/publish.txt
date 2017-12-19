@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Fri Jul 21 18:59:42 IST 2017
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\nareshit\\.m2\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-jasper\\8.5.15\\tomcat-embed-jasper-8.5.15.jar=WEB-INF/lib/tomcat-embed-jasper-8.5.15.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\nareshit\\.m2\\repository\\org\\springframework\\spring-web\\4.3.9.RELEASE\\spring-web-4.3.9.RELEASE.jar=WEB-INF/lib/spring-web-4.3.9.RELEASE.jar

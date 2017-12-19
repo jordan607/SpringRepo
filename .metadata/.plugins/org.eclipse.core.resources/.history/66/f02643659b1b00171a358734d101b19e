@@ -1,0 +1,13 @@
+
+
+<h1 style="color:red;text-align:center;">Select  JOB(s) and Get Details</h1>
+
+<form action="controller" method="POST">
+  Select Desg(s):: <select name="desgs" multiple>
+                     <option value="CLERK">CLERKS</option>
+                     <option value="SALESMAN">CLERKS</option>
+                     <option value="MANAGER">CLERKS</option>
+                     <option value="ANALYST">CLERKS</option>
+                   </select> <br>
+  <input type="submit"   value="search">         
+</form>

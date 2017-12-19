@@ -1,0 +1,13 @@
+package com.nt.service;
+
+import java.util.List;
+
+public class ListUploadedFilesSeviceImpl implements ListUploadedFileService {
+
+	@Override
+	public List<String> listAllFiles() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

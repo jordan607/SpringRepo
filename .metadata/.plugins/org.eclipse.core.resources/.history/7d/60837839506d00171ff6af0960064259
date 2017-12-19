@@ -1,0 +1,5 @@
+#username=password,role,status
+raja=rani,ROLE_OWNER,enabled
+ravi=ravi,ROLE_OWNER,ROLE_ADMIN,enabled
+kiran=kiran,ROLE_ADMIN,enabled
+ramesh=chari,ROLE_CITIZEN,disabled

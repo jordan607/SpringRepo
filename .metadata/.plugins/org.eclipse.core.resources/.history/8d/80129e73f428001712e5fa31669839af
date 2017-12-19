@@ -1,0 +1,9 @@
+package com.nt.service;
+
+public class IntrAmtCalculator {
+	
+	public float calcIntrAmount(float pAmt,float time,float rate){
+		return (pAmt*time*rate)/100.0f;
+	}
+
+}

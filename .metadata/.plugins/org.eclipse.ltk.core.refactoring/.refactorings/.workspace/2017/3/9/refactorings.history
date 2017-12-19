@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;IOCProj25&apos; to &apos;IOCProj25-PNameSpace,Cnamespace&apos;" description="Rename resource &apos;IOCProj25&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/IOCProj25" name="IOCProj25-PNameSpace,Cnamespace" stamp="1488460421244" updateReferences="true"/>
+</session>

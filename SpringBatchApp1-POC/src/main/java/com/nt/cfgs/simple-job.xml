@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p" 
+	xmlns:batch="http://www.springframework.org/schema/batch"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-4.0.xsd
+http://www.springframework.org/schema/mvc
+http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+http://www.springframework.org/schema/batch 
+http://www.springframework.org/schema/batch/spring-batch-3.0.xsd">
+
+	<import resource="applicationContext.xml"/>
+	
+	<bean id="customReader" class="com.nt.batch.CustomItemReader" >
+        <property name="bookNameList" >
+            <list>
+                <value>Core Java</value>
+                <value>Design Patterns</value>
+                <value>Advance Java</value>
+                <value>Spring FrameWork</value>
+                <value>Hibernate Framework</value>
+            </list>
+        </property>
+    </bean>
+    
+ 
+    <bean id="customProcessor" class="com.nt.batch.CustomItemProcessor" />
+ 
+    <bean id="customWriter" class="com.nt.batch.CustomItemWriter" /> 
+    
+    <batch:job id="mySimpleJob" job-repository="jobRepository" parent="simpleJob">
+    	<batch:step id="step1">
+    		<batch:tasklet transaction-manager="transactionManager">
+    			<batch:chunk reader="customReader" processor="customProcessor" 
+    						 writer="customWriter" commit-interval="2"/>
+    		</batch:tasklet>
+    	</batch:step>
+    </batch:job>   
+</beans>

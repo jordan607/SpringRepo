@@ -1,0 +1,5 @@
+package com.nt.dao;
+
+public interface EmployeeDAO {
+   public int insert(int empno,String ename,int salary,String desg);
+}

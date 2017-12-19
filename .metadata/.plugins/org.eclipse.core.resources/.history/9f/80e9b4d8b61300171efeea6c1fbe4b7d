@@ -1,0 +1,8 @@
+package com.nt.beans;
+
+public class Voter {
+	@Value("raja")
+	private String name;
+	private int age;
+
+}

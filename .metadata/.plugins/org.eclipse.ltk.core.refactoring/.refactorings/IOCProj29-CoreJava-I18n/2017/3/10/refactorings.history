@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;IOCProj30-SpringI18n/src/main/java/com.nt.commons&apos;&#x0D;&#x0A;- Original project: &apos;IOCProj29-CoreJava-I18n&apos;&#x0D;&#x0A;- Destination element: &apos;IOCProj30-SpringI18n/src/main/java/com.nt.commons&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     App_de_DE.properties&#x0D;&#x0A;     App_fr_FR.properties&#x0D;&#x0A;     App_hi_IN.properties&#x0D;&#x0A;     App.properties" description="Copy files" destination="=IOCProj30-SpringI18n/src\/main\/java&lt;com.nt.commons" element1="src/com/nt/commons/App_de_DE.properties" element2="src/com/nt/commons/App_fr_FR.properties" element3="src/com/nt/commons/App_hi_IN.properties" element4="src/com/nt/commons/App.properties" files="4" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1488805146993" units="0" version="1.0"/>
+</session>

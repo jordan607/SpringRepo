@@ -1,0 +1,10 @@
+package com.nt.service;
+
+public interface EmployeeService {
+	
+	public String  RegisterEmployee(int no,String ename,String job,int salary);
+	public int  findEmployeesCount();
+	
+	
+
+}

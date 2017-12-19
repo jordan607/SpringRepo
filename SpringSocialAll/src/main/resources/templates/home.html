@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	  xmlns:social="http://spring.io/springsocial"
+	  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	  layout:decorator="layout">
+	<head>
+		<title>Spring Social NTZ ClassRoom</title>
+	</head>
+	<body>
+		<div id="header">
+			<h1><a th:href="@{/}">Spring Social NTZ ClassRoom</a></h1>
+		</div>
+		
+		<div id="content" layout:fragment="content">
+	      <div class="jumbotron">
+	      	<img th:src="@{/project-icon-large.png}" style="float:right;opacity:0.15;"/>
+	      	
+	      	<div class="project-title">
+	      	Welcome to Spring Social Learning World 
+	      	</div>
+	      	
+	        <h1>Spring Social Learning World </h1>
+	        <p>
+	          This application demonstrates how an application may use Spring Social to connect to and consume data from Facebook and Twitter.
+	        </p>
+	      </div>
+		</div>		
+	</body>
+</html>

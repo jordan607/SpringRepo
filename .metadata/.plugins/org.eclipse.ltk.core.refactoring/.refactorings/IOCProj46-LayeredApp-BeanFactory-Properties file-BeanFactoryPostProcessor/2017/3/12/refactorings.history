@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.nt.test.ClientApp&apos; to &apos;ClientApp_AC&apos;&#x0D;&#x0A;- Original project: &apos;IOCProj46-LayeredApp-BeanFactory-Properties file-BeanFactoryPostProcessor&apos;&#x0D;&#x0A;- Original element: &apos;com.nt.test.ClientApp&apos;&#x0D;&#x0A;- Renamed element: &apos;com.nt.test.ClientApp_AC&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ClientApp&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.nt.test{ClientApp.java[ClientApp" matchStrategy="1" name="ClientApp_AC" qualified="false" references="true" similarDeclarations="false" stamp="1490014779587" textual="false" version="1.0"/>
+</session>

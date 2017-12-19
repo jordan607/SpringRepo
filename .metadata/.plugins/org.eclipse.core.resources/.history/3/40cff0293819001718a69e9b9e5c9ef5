@@ -1,0 +1,9 @@
+package com.nt.dao;
+
+import java.util.Map;
+
+public interface EmployeeDAO {
+   public int insert(int empno,String ename,int salary,String desg);
+   public int getEmployeesCount();
+   public Map<String,Object> getEmployeeDetailsByNo(int no);
+}

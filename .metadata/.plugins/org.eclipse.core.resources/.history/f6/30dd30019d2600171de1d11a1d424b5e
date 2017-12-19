@@ -1,0 +1,19 @@
+#Tomcat jdbc con pool
+#spring.datasource.driver-class-name=oracle.jdbc.driver.OracleDriver
+#spring.datasource.url=jdbc:oracle:thin:@localhost:1521:xe
+#spring.datasource.username=system
+#spring.datasource.password=manager
+#
+##our jdbc properties
+#my.driver=oracle.jdbc.driver.OracleDriver
+#my.url=jdbc:oracle:thin:@localhost:1521:xe
+#my.username=system
+#my.password=manager
+
+spring.datasource.dbcp2.driver-class-name=oracle.jdbc.driver.OracleDriver
+spring.datasource.dbcp2.url=jdbc:oracle:thin:@localhost:1521:xe
+spring.datasource.dbcp2.username=system
+spring.datasource.dbcp2.password=manager
+
+
+

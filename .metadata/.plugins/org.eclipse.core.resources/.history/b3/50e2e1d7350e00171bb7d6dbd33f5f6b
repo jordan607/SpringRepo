@@ -1,0 +1,8 @@
+package com.nt.beans;
+
+public class AadharDetails {
+	private int uid;
+	private String name;
+	
+
+}

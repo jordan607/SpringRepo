@@ -1,0 +1,3 @@
+//com.springsource.sts.config.flow.coordinates\:http\://www.springframework.org/schema/batch\:/SpringBatchApp2-DBToCsv/src/main/java/com/nt/cfgs/persistence-beans.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<graph/>
+//com.springsource.sts.config.flow.coordinates\:http\://www.springframework.org/schema/batch\:/SpringBatchApp2-DBToCsv/src/main/java/com/nt/cfgs/spring-batch-beans.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<graph>\r\n<element clazz\="JobModelElement" type\="job">\r\n<structure end\="2775" endstart\="2763" start\="2481" startend\="2511"/>\r\n<bounds height\="118" width\="161" x\="15" y\="17"/>\r\n</element>\r\n</graph>
+eclipse.preferences.version=1

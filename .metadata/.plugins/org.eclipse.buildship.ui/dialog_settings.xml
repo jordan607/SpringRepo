@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.buildship.ui.wizard.project.creation">
+		<item value="LOCAL_INSTALLATION" key="gradle_distribution_type"/>
+		<item value="true" key="use_default_location"/>
+		<item value="E:\NEW JAVA DVD\CD-I\Tools\gradle-3.4.1-all(1)\gradle-3.4.1" key="gradle_distribution_configuration"/>
+		<item value="D:\NtSp86\IOCProj45-BeanPostProcessor" key="project_location"/>
+	</section>
+</section>
